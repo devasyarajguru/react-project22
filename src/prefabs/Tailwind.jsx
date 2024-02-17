@@ -1,4 +1,3 @@
-
 export function Accordion() {
   return (
     <div>
@@ -77,8 +76,8 @@ export function Accordion_2() {
         </div>
         <div className="invisible h-auto max-h-0 items-center opacity-0 transition-all group-focus:visible group-focus:max-h-screen group-focus:opacity-100 group-focus:duration-1000">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
           aliquip ex ea commodo consequat.
         </div>
       </div>
@@ -96,8 +95,8 @@ export function Accordion_2() {
         </div>
         <div className="invisible h-auto max-h-0 items-center opacity-0 transition-all group-focus:visible group-focus:max-h-screen group-focus:opacity-100 group-focus:duration-1000">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
           aliquip ex ea commodo consequat.
         </div>
       </div>
@@ -115,8 +114,8 @@ export function Accordion_2() {
         </div>
         <div className="invisible h-auto max-h-0 items-center opacity-0 transition-all group-focus:visible group-focus:max-h-screen group-focus:opacity-100 group-focus:duration-1000">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
           aliquip ex ea commodo consequat.
         </div>
       </div>
@@ -126,14 +125,18 @@ export function Accordion_2() {
 
 export function Alert_Error() {
   return (
-    <div className="p-4 mb-4 text-sm text-red-800 rounded-lg bg-red-50 flex items-center justify-between" role="alert">
+    <div
+      className="p-4 mb-4 text-sm text-red-800 rounded-lg bg-red-50 flex items-center justify-between"
+      role="alert"
+    >
       <div className="flex items-center gap-2">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
           fill="currentColor"
           aria-hidden="true"
-          width="16" height="16"
+          width="16"
+          height="16"
         >
           <path
             fillRule="evenodd"
@@ -141,11 +144,27 @@ export function Alert_Error() {
             clipRule="evenodd"
           ></path>
         </svg>
-        <span >Sorry, something went wrong please try again.</span>
+        <span>Sorry, something went wrong please try again.</span>
       </div>
-      <button type="button" className="text-red-800 rounded-lg inline-flex items-center justify-center h-8 w-8 " aria-label="Close">
-        <svg className="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
-          <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
+      <button
+        type="button"
+        className="text-red-800 rounded-lg inline-flex items-center justify-center h-8 w-8 "
+        aria-label="Close"
+      >
+        <svg
+          className="w-3 h-3"
+          aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 14 14"
+        >
+          <path
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
+          />
         </svg>
       </button>
     </div>
@@ -154,22 +173,46 @@ export function Alert_Error() {
 
 export function Alert_Notification() {
   return (
-    <div aria-live="assertive" className="pointer-events-none inset-0 flex items-end px-4 py-6 sm:items-start sm:p-6">
+    <div
+      aria-live="assertive"
+      className="pointer-events-none inset-0 flex items-end px-4 py-6 sm:items-start sm:p-6"
+    >
       <div className="pointer-events-auto w-full max-w-sm overflow-hidden rounded-lg bg-white shadow-lg ring-1 ring-black ring-opacity-5">
         <div className="flex items-start p-4">
           <div className="flex-shrink-0">
-            <svg className="h-6 w-6 text-green-400" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" aria-hidden="true">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            <svg
+              className="h-6 w-6 text-green-400"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth="1.5"
+              stroke="currentColor"
+              aria-hidden="true"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+              />
             </svg>
           </div>
           <div className="ml-3 w-0 flex-1 pt-0.5">
             <p className="text-sm font-medium text-slate-900">Successful</p>
-            <p className="mt-1 text-sm text-slate-500">Your request has been updated.</p>
+            <p className="mt-1 text-sm text-slate-500">
+              Your request has been updated.
+            </p>
           </div>
           <div className="ml-4 flex flex-shrink-0">
-            <button type="button" className="inline-flex rounded-md bg-white text-slate-400 hover:text-slate-500 focus:outline-none">
+            <button
+              type="button"
+              className="inline-flex rounded-md bg-white text-slate-400 hover:text-slate-500 focus:outline-none"
+            >
               <span className="sr-only">Close</span>
-              <svg className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <svg
+                className="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                aria-hidden="true"
+              >
                 <path d="M6.28 5.22a.75.75 0 00-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 101.06 1.06L10 11.06l3.72 3.72a.75.75 0 101.06-1.06L11.06 10l3.72-3.72a.75.75 0 00-1.06-1.06L10 8.94 6.28 5.22z" />
               </svg>
             </button>
@@ -182,14 +225,43 @@ export function Alert_Notification() {
 
 export function Alert_Success() {
   return (
-    <div className="p-4 mb-4 text-sm text-green-800 rounded-lg bg-green-50 flex items-center justify-between" role="alert">
+    <div
+      className="p-4 mb-4 text-sm text-green-800 rounded-lg bg-green-50 flex items-center justify-between"
+      role="alert"
+    >
       <div className="flex items-center gap-2">
-        <svg width="16" height="16" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><path fill="#166534" d="M512 64a448 448 0 1 1 0 896 448 448 0 0 1 0-896zm-55.808 536.384-99.52-99.584a38.4 38.4 0 1 0-54.336 54.336l126.72 126.72a38.272 38.272 0 0 0 54.336 0l262.4-262.464a38.4 38.4 0 1 0-54.272-54.336L456.192 600.384z" /></svg>
-        <span >Successful, your request has been updated</span>
+        <svg
+          width="16"
+          height="16"
+          viewBox="0 0 1024 1024"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill="#166534"
+            d="M512 64a448 448 0 1 1 0 896 448 448 0 0 1 0-896zm-55.808 536.384-99.52-99.584a38.4 38.4 0 1 0-54.336 54.336l126.72 126.72a38.272 38.272 0 0 0 54.336 0l262.4-262.464a38.4 38.4 0 1 0-54.272-54.336L456.192 600.384z"
+          />
+        </svg>
+        <span>Successful, your request has been updated</span>
       </div>
-      <button type="button" className="text-green-800 rounded-lg inline-flex items-center justify-center h-8 w-8 " aria-label="Close">
-        <svg className="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
-          <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
+      <button
+        type="button"
+        className="text-green-800 rounded-lg inline-flex items-center justify-center h-8 w-8 "
+        aria-label="Close"
+      >
+        <svg
+          className="w-3 h-3"
+          aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 14 14"
+        >
+          <path
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
+          />
         </svg>
       </button>
     </div>
@@ -198,29 +270,60 @@ export function Alert_Success() {
 
 export function Alert_Warning() {
   return (
-    <div className="p-4 mb-4 text-sm text-yellow-800 rounded-lg bg-yellow-50 flex items-center justify-between" role="alert">
+    <div
+      className="p-4 mb-4 text-sm text-yellow-800 rounded-lg bg-yellow-50 flex items-center justify-between"
+      role="alert"
+    >
       <div className="flex items-center gap-2">
-        <svg fill="#854d0e" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"
-          width="16" height="16" viewBox="0 0 478.125 478.125"
-          xmlSpace="preserve">
+        <svg
+          fill="#854d0e"
+          version="1.1"
+          id="Capa_1"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
+          width="16"
+          height="16"
+          viewBox="0 0 478.125 478.125"
+          xmlSpace="preserve"
+        >
           <g>
             <g>
               <g>
                 <circle cx="239.904" cy="314.721" r="35.878" />
-                <path d="M256.657,127.525h-31.9c-10.557,0-19.125,8.645-19.125,19.125v101.975c0,10.48,8.645,19.125,19.125,19.125h31.9
-    c10.48,0,19.125-8.645,19.125-19.125V146.65C275.782,136.17,267.138,127.525,256.657,127.525z"/>
-                <path d="M239.062,0C106.947,0,0,106.947,0,239.062s106.947,239.062,239.062,239.062c132.115,0,239.062-106.947,239.062-239.062
+                <path
+                  d="M256.657,127.525h-31.9c-10.557,0-19.125,8.645-19.125,19.125v101.975c0,10.48,8.645,19.125,19.125,19.125h31.9
+    c10.48,0,19.125-8.645,19.125-19.125V146.65C275.782,136.17,267.138,127.525,256.657,127.525z"
+                />
+                <path
+                  d="M239.062,0C106.947,0,0,106.947,0,239.062s106.947,239.062,239.062,239.062c132.115,0,239.062-106.947,239.062-239.062
     S371.178,0,239.062,0z M239.292,409.734c-94.171,0-170.595-76.348-170.595-170.596c0-94.248,76.347-170.595,170.595-170.595
-    s170.595,76.347,170.595,170.595C409.887,333.387,333.464,409.734,239.292,409.734z"/>
+    s170.595,76.347,170.595,170.595C409.887,333.387,333.464,409.734,239.292,409.734z"
+                />
               </g>
             </g>
           </g>
         </svg>
         <span>Warning alert! You have been warned</span>
       </div>
-      <button type="button" className="text-yello-800 rounded-lg inline-flex items-center justify-center h-8 w-8 " aria-label="Close">
-        <svg className="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
-          <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
+      <button
+        type="button"
+        className="text-yello-800 rounded-lg inline-flex items-center justify-center h-8 w-8 "
+        aria-label="Close"
+      >
+        <svg
+          className="w-3 h-3"
+          aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 14 14"
+        >
+          <path
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
+          />
         </svg>
       </button>
     </div>
@@ -230,9 +333,13 @@ export function Alert_Warning() {
 export function Avatar() {
   return (
     <div className="rounded-full w-16 h-16">
-      <img src="https://i.pravatar.cc/100?img=5" alt="avatar" className="rounded-full" />
+      <img
+        src="https://i.pravatar.cc/100?img=5"
+        alt="avatar"
+        className="rounded-full"
+      />
     </div>
-  )
+  );
 }
 
 export function Button() {
@@ -245,15 +352,15 @@ export function Button() {
 
 export function Button_Large() {
   return (
-    <button className="bg-sky-600 transition duration-150 ease-in-out hover:bg-sky-700 lg:text-xl rounded text-white px-10 py-4 text-sm">Button</button>
+    <button className="bg-sky-600 transition duration-150 ease-in-out hover:bg-sky-700 lg:text-xl rounded text-white px-10 py-4 text-sm">
+      Button
+    </button>
   );
 }
 
 export function Button_Outlined() {
   return (
-    <button
-      className="py-2 px-4 rounded border border-sky-700 hover:border-sky-600 transition duration-300 ease-in-out  text-sky-800 text-sm"
-    >
+    <button className="py-2 px-4 rounded border border-sky-700 hover:border-sky-600 transition duration-300 ease-in-out  text-sky-800 text-sm">
       Button
     </button>
   );
@@ -261,9 +368,7 @@ export function Button_Outlined() {
 
 export function Button_Rounded() {
   return (
-    <button
-      className="py-2 px-4 rounded-full bg-sky-600 hover:bg-sky-700 transition duration-300 ease-in-out  text-white shadow text-sm"
-    >
+    <button className="py-2 px-4 rounded-full bg-sky-600 hover:bg-sky-700 transition duration-300 ease-in-out  text-white shadow text-sm">
       Button
     </button>
   );
@@ -271,32 +376,46 @@ export function Button_Rounded() {
 
 export function Button_Icon_Left() {
   return (
-    <button
-      className="h-12 px-4 py-2 flex rounded items-center gap-2 bg-sky-600 hover:bg-sky-700 transition duration-300 ease-in-out text-white text-sm"
-    >
-      <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24" width="24" height="24" fill="white" ><path d="M18.302,7.121c-1.349-3.121-4.38-5.121-7.802-5.121C5.813,2,2,5.813,2,10.5c0,.591,.061,1.18,.181,1.754-1.354,.871-2.181,2.369-2.181,3.996,0,2.619,2.131,4.75,4.75,4.75h12.25c3.86,0,7-3.141,7-7,0-3.355-2.43-6.263-5.698-6.879Zm-1.302,12.879H4.75c-2.068,0-3.75-1.683-3.75-3.75,0-1.387,.761-2.656,1.987-3.311l.346-.186-.098-.38c-.157-.609-.236-1.239-.236-1.874,0-4.136,3.364-7.5,7.5-7.5,3.103,0,5.843,1.865,6.98,4.752l.106,.27,.287,.042c2.923,.426,5.126,2.978,5.126,5.937,0,3.309-2.691,6-6,6Zm-1.854-7.439l.707,.707-3.293,3.293c-.292,.292-.676,.438-1.061,.438s-.768-.146-1.061-.438l-3.293-3.293,.707-.707,3.146,3.146v-7.707h1v7.707l3.146-3.146Z" /></svg>
-      <span >Download</span>
+    <button className="h-12 px-4 py-2 flex rounded items-center gap-2 bg-sky-600 hover:bg-sky-700 transition duration-300 ease-in-out text-white text-sm">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        id="Layer_1"
+        data-name="Layer 1"
+        viewBox="0 0 24 24"
+        width="24"
+        height="24"
+        fill="white"
+      >
+        <path d="M18.302,7.121c-1.349-3.121-4.38-5.121-7.802-5.121C5.813,2,2,5.813,2,10.5c0,.591,.061,1.18,.181,1.754-1.354,.871-2.181,2.369-2.181,3.996,0,2.619,2.131,4.75,4.75,4.75h12.25c3.86,0,7-3.141,7-7,0-3.355-2.43-6.263-5.698-6.879Zm-1.302,12.879H4.75c-2.068,0-3.75-1.683-3.75-3.75,0-1.387,.761-2.656,1.987-3.311l.346-.186-.098-.38c-.157-.609-.236-1.239-.236-1.874,0-4.136,3.364-7.5,7.5-7.5,3.103,0,5.843,1.865,6.98,4.752l.106,.27,.287,.042c2.923,.426,5.126,2.978,5.126,5.937,0,3.309-2.691,6-6,6Zm-1.854-7.439l.707,.707-3.293,3.293c-.292,.292-.676,.438-1.061,.438s-.768-.146-1.061-.438l-3.293-3.293,.707-.707,3.146,3.146v-7.707h1v7.707l3.146-3.146Z" />
+      </svg>
+      <span>Download</span>
     </button>
   );
 }
 
 export function Button_Icon_Right() {
   return (
-    <button
-      className="h-12 px-4 py-2 rounded flex items-center gap-2 bg-sky-600 hover:bg-sky-700 transition duration-300 ease-in-out text-white text-sm"
-    >
-      <span >Download</span>
-      <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24" width="24" height="24" fill="white" ><path d="M18.302,7.121c-1.349-3.121-4.38-5.121-7.802-5.121C5.813,2,2,5.813,2,10.5c0,.591,.061,1.18,.181,1.754-1.354,.871-2.181,2.369-2.181,3.996,0,2.619,2.131,4.75,4.75,4.75h12.25c3.86,0,7-3.141,7-7,0-3.355-2.43-6.263-5.698-6.879Zm-1.302,12.879H4.75c-2.068,0-3.75-1.683-3.75-3.75,0-1.387,.761-2.656,1.987-3.311l.346-.186-.098-.38c-.157-.609-.236-1.239-.236-1.874,0-4.136,3.364-7.5,7.5-7.5,3.103,0,5.843,1.865,6.98,4.752l.106,.27,.287,.042c2.923,.426,5.126,2.978,5.126,5.937,0,3.309-2.691,6-6,6Zm-1.854-7.439l.707,.707-3.293,3.293c-.292,.292-.676,.438-1.061,.438s-.768-.146-1.061-.438l-3.293-3.293,.707-.707,3.146,3.146v-7.707h1v7.707l3.146-3.146Z" /></svg>
+    <button className="h-12 px-4 py-2 rounded flex items-center gap-2 bg-sky-600 hover:bg-sky-700 transition duration-300 ease-in-out text-white text-sm">
+      <span>Download</span>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        id="Layer_1"
+        data-name="Layer 1"
+        viewBox="0 0 24 24"
+        width="24"
+        height="24"
+        fill="white"
+      >
+        <path d="M18.302,7.121c-1.349-3.121-4.38-5.121-7.802-5.121C5.813,2,2,5.813,2,10.5c0,.591,.061,1.18,.181,1.754-1.354,.871-2.181,2.369-2.181,3.996,0,2.619,2.131,4.75,4.75,4.75h12.25c3.86,0,7-3.141,7-7,0-3.355-2.43-6.263-5.698-6.879Zm-1.302,12.879H4.75c-2.068,0-3.75-1.683-3.75-3.75,0-1.387,.761-2.656,1.987-3.311l.346-.186-.098-.38c-.157-.609-.236-1.239-.236-1.874,0-4.136,3.364-7.5,7.5-7.5,3.103,0,5.843,1.865,6.98,4.752l.106,.27,.287,.042c2.923,.426,5.126,2.978,5.126,5.937,0,3.309-2.691,6-6,6Zm-1.854-7.439l.707,.707-3.293,3.293c-.292,.292-.676,.438-1.061,.438s-.768-.146-1.061-.438l-3.293-3.293,.707-.707,3.146,3.146v-7.707h1v7.707l3.146-3.146Z" />
+      </svg>
     </button>
   );
 }
 
 export function Button_Loading() {
   return (
-    <button
-      className="h-12 px-4 py-2 rounded flex items-center gap-2 bg-sky-600 hover:bg-sky-700 transition duration-300 ease-in-out text-white text-sm"
-    >
-      <div className="ml-2 animate-spin inline-block w-5 h-5 rounded-full border-t " ></div>
+    <button className="h-12 px-4 py-2 rounded flex items-center gap-2 bg-sky-600 hover:bg-sky-700 transition duration-300 ease-in-out text-white text-sm">
+      <div className="ml-2 animate-spin inline-block w-5 h-5 rounded-full border-t "></div>
       Loading
     </button>
   );
@@ -306,7 +425,11 @@ export function Card() {
   return (
     <div className="bg-white rounded w-80 p-4 flex flex-col justify-between border shadow">
       <div className="w-full h-56 rounded">
-        <img src="https://source.unsplash.com/random/200x200" alt="image" className="w-full h-full rounded" />
+        <img
+          src="https://source.unsplash.com/random/200x200"
+          alt="image"
+          className="w-full h-full rounded"
+        />
       </div>
       <div className="py-4">
         <h2 className="font-bold text-xl">Card Tiltle</h2>
@@ -321,9 +444,7 @@ export function Card() {
 }
 
 export function Checkbox() {
-  return (
-    <input type="checkbox" />
-  );
+  return <input type="checkbox" />;
 }
 
 export function Dialog() {
@@ -337,9 +458,7 @@ export function Dialog() {
         voluptas ducimus eaque commodi nam voluptates tenetur minima.
       </div>
       <div className="flex gap-2 shrink-0 flex-wrap items-center justify-end text-sky-slate-500">
-        <button
-          className="py-2 rounded transition duration-300 ease-in-out px-6 font-semibold text-sm  text-red-800"
-        >
+        <button className="py-2 rounded transition duration-300 ease-in-out px-6 font-semibold text-sm  text-red-800">
           Cancel
         </button>
         <button className="py-2 bg-sky-600 hover:bg-sky-700 transition duration-300 ease-in-out px-6 font-semibold  text-white text-sm rounded shadow">
@@ -363,9 +482,7 @@ export function Divider_With_Text() {
 export function Feature_Card() {
   return (
     <div className="bg-sky-100 py-14">
-      <h1 className="text-sky-800 text-4xl text-center font-bold">
-        Features
-      </h1>
+      <h1 className="text-sky-800 text-4xl text-center font-bold">Features</h1>
       <div className="md:flex md:justify-center md:space-x-8 md:px-14">
         <div className="mt-16 py-4 px-4 bg-whit w-72 bg-white rounded-xl shadow-lg hover:shadow-xl transform hover:scale-110 transition duration-500 mx-auto md:mx-0">
           <div className="w-sm">
@@ -377,11 +494,10 @@ export function Feature_Card() {
             <div className="py-4 text-sky-600 text-center flex flex-col gap-4">
               <h1 className="text-xl font-bold">Easy Integration</h1>
               <p className=" text-slate-600">
-                Integrate our prefab components effortlessly into your existing projects, enhancing functionality without the hassle.
+                Integrate our prefab components effortlessly into your existing
+                projects, enhancing functionality without the hassle.
               </p>
-              <button
-                className="py-2 rounded-full bg-sky-600 hover:bg-sky-700 transition duration-300 ease-in-out px-8 font-semibold  text-white shadow"
-              >
+              <button className="py-2 rounded-full bg-sky-600 hover:bg-sky-700 transition duration-300 ease-in-out px-8 font-semibold  text-white shadow">
                 MORE
               </button>
             </div>
@@ -398,11 +514,10 @@ export function Feature_Card() {
             <div className="py-4 text-sky-600 text-center flex flex-col gap-4">
               <h1 className="text-xl font-bold">Diverse Selection</h1>
               <p className=" text-slate-600">
-                Integrate our prefab components effortlessly into your existing projects, enhancing functionality without the hassle.
+                Integrate our prefab components effortlessly into your existing
+                projects, enhancing functionality without the hassle.
               </p>
-              <button
-                className="py-2 rounded-full bg-sky-600 hover:bg-sky-700 transition duration-300 ease-in-out px-8 font-semibold  text-white shadow"
-              >
+              <button className="py-2 rounded-full bg-sky-600 hover:bg-sky-700 transition duration-300 ease-in-out px-8 font-semibold  text-white shadow">
                 MORE
               </button>
             </div>
@@ -419,11 +534,10 @@ export function Feature_Card() {
             <div className="py-4 text-sky-600 text-center flex flex-col gap-4">
               <h1 className="text-xl font-bold">Optimized Performance</h1>
               <p className=" text-slate-600">
-                Maintain high performance standards with components that are optimized for speed and efficiency
+                Maintain high performance standards with components that are
+                optimized for speed and efficiency
               </p>
-              <button
-                className="py-2 rounded-full bg-sky-600 hover:bg-sky-700 transition duration-300 ease-in-out px-6 inline font-semibold  text-white shadow"
-              >
+              <button className="py-2 rounded-full bg-sky-600 hover:bg-sky-700 transition duration-300 ease-in-out px-6 inline font-semibold  text-white shadow">
                 MORE
               </button>
             </div>
@@ -451,13 +565,23 @@ export function Floating_Header() {
               Career
             </button>
           </div>
-          <div >
+          <div>
             <button className="border py-2 px-4 bg-slate-600 hover:bg-slate-700 text-white rounded hidden lg:block">
               Join Community
             </button>
             <button className="lg:hidden">
-              <svg width="24" height="24" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" fill="none">
-                <path fill="#000000" fillRule="evenodd" d="M18 5a1 1 0 100-2H2a1 1 0 000 2h16zm-4 4a1 1 0 100-2H6a1 1 0 100 2h8zm5 3a1 1 0 01-1 1H2a1 1 0 110-2h16a1 1 0 011 1zm-5 5a1 1 0 100-2H6a1 1 0 100 2h8z" />
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+              >
+                <path
+                  fill="#000000"
+                  fillRule="evenodd"
+                  d="M18 5a1 1 0 100-2H2a1 1 0 000 2h16zm-4 4a1 1 0 100-2H6a1 1 0 100 2h8zm5 3a1 1 0 01-1 1H2a1 1 0 110-2h16a1 1 0 011 1zm-5 5a1 1 0 100-2H6a1 1 0 100 2h8z"
+                />
               </svg>
             </button>
           </div>
@@ -480,24 +604,32 @@ export function Footer() {
         </div>
         <div className="grid grid-cols-2 gap-8 sm:gap-6 md:grid-cols-3">
           <div>
-            <h3 className="mb-6 text-sm font-semibold text-slate-900 uppercase "> Resources </h3>
+            <h3 className="mb-6 text-sm font-semibold text-slate-900 uppercase ">
+              {" "}
+              Resources{" "}
+            </h3>
             <ul>
               <li className="mb-4">Blog</li>
               <li>Prefabs</li>
             </ul>
           </div>
           <div>
-            <h3 className="mb-6 text-sm font-semibold text-slate-900 uppercase "> Socials </h3>
+            <h3 className="mb-6 text-sm font-semibold text-slate-900 uppercase ">
+              {" "}
+              Socials{" "}
+            </h3>
             <ul>
               <li className="mb-4">Github</li>
               <li>Discord</li>
             </ul>
           </div>
           <div>
-            <h3 className="mb-6 text-sm font-semibold text-slate-900 uppercase ">Company </h3>
+            <h3 className="mb-6 text-sm font-semibold text-slate-900 uppercase ">
+              Company{" "}
+            </h3>
             <ul>
               <li className="mb-4">Privacy Policy</li>
-              <li >Terms &amp; Conditions</li>
+              <li>Terms &amp; Conditions</li>
             </ul>
           </div>
         </div>
@@ -508,9 +640,7 @@ export function Footer() {
           © 2024 LOGO. All Rights Reserved.
         </span>
         <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
-          <button
-            className="text-slate-600 hover:text-slate-800 "
-          >
+          <button className="text-slate-600 hover:text-slate-800 ">
             <svg
               className="w-6 h-6"
               fill="currentColor"
@@ -524,9 +654,7 @@ export function Footer() {
               ></path>
             </svg>
           </button>
-          <button
-            className="text-slate-600 hover:text-slate-800"
-          >
+          <button className="text-slate-600 hover:text-slate-800">
             <svg
               className="w-6 h-6"
               fill="currentColor"
@@ -540,9 +668,7 @@ export function Footer() {
               ></path>
             </svg>
           </button>
-          <button
-            className="text-slate-600 hover:text-slate-800"
-          >
+          <button className="text-slate-600 hover:text-slate-800">
             <svg
               className="w-6 h-6"
               fill="currentColor"
@@ -552,9 +678,7 @@ export function Footer() {
               <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"></path>
             </svg>
           </button>
-          <button
-            className="text-slate-600 hover:text-slate-800"
-          >
+          <button className="text-slate-600 hover:text-slate-800">
             <svg
               className="w-6 h-6"
               fill="currentColor"
@@ -629,8 +753,18 @@ export function Header() {
           />
         </div>
         <button className="lg:hidden">
-          <svg width="24" height="24" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" fill="none">
-            <path fill="#fff" fillRule="evenodd" d="M18 5a1 1 0 100-2H2a1 1 0 000 2h16zm-4 4a1 1 0 100-2H6a1 1 0 100 2h8zm5 3a1 1 0 01-1 1H2a1 1 0 110-2h16a1 1 0 011 1zm-5 5a1 1 0 100-2H6a1 1 0 100 2h8z" />
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+          >
+            <path
+              fill="#fff"
+              fillRule="evenodd"
+              d="M18 5a1 1 0 100-2H2a1 1 0 000 2h16zm-4 4a1 1 0 100-2H6a1 1 0 100 2h8zm5 3a1 1 0 01-1 1H2a1 1 0 110-2h16a1 1 0 011 1zm-5 5a1 1 0 100-2H6a1 1 0 100 2h8z"
+            />
           </svg>
         </button>
       </nav>
@@ -639,27 +773,27 @@ export function Header() {
 }
 
 export function Heading1() {
-  return <h1 className="text-6xl font-bold font-serif" >Heading 1</h1>;
+  return <h1 className="text-6xl font-bold font-serif">Heading 1</h1>;
 }
 
 export function Heading2() {
-  return <h2 className="text-5xl font-bold font-serif" >Heading 2</h2>;
+  return <h2 className="text-5xl font-bold font-serif">Heading 2</h2>;
 }
 
 export function Heading3() {
-  return <h3 className="text-4xl font-bold font-serif" >Heading 3</h3>;
+  return <h3 className="text-4xl font-bold font-serif">Heading 3</h3>;
 }
 
 export function Heading4() {
-  return <h4 className="text-3xl font-bold font-serif" >Heading 4</h4>;
+  return <h4 className="text-3xl font-bold font-serif">Heading 4</h4>;
 }
 
 export function Heading5() {
-  return <h5 className="text-2xl font-semibold font-serif" >Heading 5</h5>;
+  return <h5 className="text-2xl font-semibold font-serif">Heading 5</h5>;
 }
 
 export function Heading6() {
-  return <h6 className="text-xl font-medium font-serif" >Heading 6</h6>;
+  return <h6 className="text-xl font-medium font-serif">Heading 6</h6>;
 }
 
 export function Hero() {
@@ -670,11 +804,18 @@ export function Hero() {
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center text-slate-800 font-extrabold leading-7 md:leading-10">
             Elevate your web development experience with Tailwind Prefabs
           </h1>
-          <p className="mt-5 sm:mt-10 lg:w-10/12 text-slate-500 font-normal text-center text-sm sm:text-lg">The seamless component building blocks for effortlessly crafting your perfect web application </p>
+          <p className="mt-5 sm:mt-10 lg:w-10/12 text-slate-500 font-normal text-center text-sm sm:text-lg">
+            The seamless component building blocks for effortlessly crafting
+            your perfect web application{" "}
+          </p>
         </div>
         <div className="flex justify-center items-center gap-3">
-          <button className="px-10 py-4 rounded border bg-sky-600 transition duration-150 ease-in-out hover:bg-sky-700 text-white test-sm lg:text-xl">Get Started</button>
-          <button className="px-10 py-4 rounded border border-sky-700 hover:border-sky-600 transition duration-150 ease-in-out text-sky-800 test-sm lg:text-xl">Book Demo</button>
+          <button className="px-10 py-4 rounded border bg-sky-600 transition duration-150 ease-in-out hover:bg-sky-700 text-white test-sm lg:text-xl">
+            Get Started
+          </button>
+          <button className="px-10 py-4 rounded border border-sky-700 hover:border-sky-600 transition duration-150 ease-in-out text-sky-800 test-sm lg:text-xl">
+            Book Demo
+          </button>
         </div>
       </div>
     </section>
@@ -755,11 +896,11 @@ export function Icon_Github() {
 
 export function Image() {
   return (
-    <div className='w-200 h-200 overflow-hidden rounded-lg border border-slate-500'>
+    <div className="w-200 h-200 overflow-hidden rounded-lg border border-slate-500">
       <img
-        src='https://source.unsplash.com/random/200x200'
-        alt='Random'
-        className='h-full w-full object-cover'
+        src="https://source.unsplash.com/random/200x200"
+        alt="Random"
+        className="h-full w-full object-cover"
       />
     </div>
   );
@@ -767,7 +908,11 @@ export function Image() {
 
 export function Input() {
   return (
-    <input type="text" id="input" className="block w-full px-3 py-2 text-slate-900 border border-slate-300 rounded outline-sky-600" />
+    <input
+      type="text"
+      id="input"
+      className="block w-full px-3 py-2 text-slate-900 border border-slate-300 rounded outline-sky-600"
+    />
   );
 }
 
@@ -775,14 +920,17 @@ export function Notice_Modal() {
   return (
     <div className="pointer-events-none inset-x-0 px-6 pb-6">
       <div className="pointer-events-auto mx-auto max-w-xl rounded-xl bg-white p-6 shadow-lg ring-1 ring-slate-900/10">
-        <p className="text-sm leading-6 text-slate-900">This site uses Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat excepturi veniam, eligendi inventore quis maxime quas totam. Atque delectus facilis nisi ea optio. Et nemo, nostrum quasi mollitia est minus?</p>
+        <p className="text-sm leading-6 text-slate-900">
+          This site uses Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Quaerat excepturi veniam, eligendi inventore quis maxime quas
+          totam. Atque delectus facilis nisi ea optio. Et nemo, nostrum quasi
+          mollitia est minus?
+        </p>
         <div className="mt-4 flex items-center">
           <button className="py-2 bg-sky-600 hover:bg-sky-700 transition duration-300 ease-in-out px-6 font-semibold  text-white text-sm rounded shadow">
             Accept
           </button>
-          <button
-            className="py-2 rounded transition duration-300 ease-in-out px-6 font-semibold  text-slate-800 text-sm"
-          >
+          <button className="py-2 rounded transition duration-300 ease-in-out px-6 font-semibold  text-slate-800 text-sm">
             Reject
           </button>
         </div>
@@ -793,7 +941,7 @@ export function Notice_Modal() {
 
 export function Paragraph() {
   return (
-    <p className='mt-2 text-sm text-slate-800'>
+    <p className="mt-2 text-sm text-slate-800">
       Lorem Ipsum is simply dummy text of the printing and typesetting industry.
       Lorem Ipsum has been the industry standard dummy text ever since the
       1500s, when an unknown printer took a galley of type and scrambled it to
@@ -806,7 +954,6 @@ export function Pricing_Card() {
   return (
     <div className="bg-slate-100 min-h-screen py-12 flex items-center justify-center">
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-
         <div className="bg-white rounded-lg overflow-hidden shadow-lg transition-transform transform hover:scale-105 w-72">
           <div className="p-1 bg-sky-200" />
           <div className="p-8">
@@ -815,31 +962,60 @@ export function Pricing_Card() {
             <p className="text-4xl font-bold text-slate-800 my-6">$20</p>
             <ul className="text-sm text-slate-600 mb-6">
               <li className="mb-2 flex items-center">
-                <svg className="w-4 h-4 mr-2 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
-                    d="M5 13l4 4L19 7"></path>
+                <svg
+                  className="w-4 h-4 mr-2 text-green-500"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M5 13l4 4L19 7"
+                  ></path>
                 </svg>
                 Unlimited Users
               </li>
               <li className="mb-2 flex items-center">
-                <svg className="w-4 h-4 mr-2 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
-                    d="M5 13l4 4L19 7"></path>
+                <svg
+                  className="w-4 h-4 mr-2 text-green-500"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M5 13l4 4L19 7"
+                  ></path>
                 </svg>
                 Premiun Features
               </li>
               <li className="flex items-center">
-                <svg className="w-4 h-4 mr-2 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                <svg
+                  className="w-4 h-4 mr-2 text-green-500"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M5 13l4 4L19 7"
+                  ></path>
                 </svg>
                 24/7 Support
               </li>
             </ul>
           </div>
           <div className="p-4">
-            <button
-              className="py-2 rounded-full bg-sky-600 hover:bg-sky-700 transition duration-300 ease-in-out px-8 font-semibold  text-white shadow w-full"
-            >
+            <button className="py-2 rounded-full bg-sky-600 hover:bg-sky-700 transition duration-300 ease-in-out px-8 font-semibold  text-white shadow w-full">
               Get Started
             </button>
           </div>
@@ -853,7 +1029,11 @@ export function Profile_Card() {
   return (
     <div className="relative p-4 flex w-96 flex-col rounded-xl bg-white bg-clip-border text-slate-700 shadow-md">
       <div className="relative h-80 overflow-hidden rounded-xl bg-white bg-clip-border text-slate-700 shadow-lg">
-        <img src="https://source.unsplash.com/random/200x200" className="w-full h-full" alt="profile-picture" />
+        <img
+          src="https://source.unsplash.com/random/200x200"
+          className="w-full h-full"
+          alt="profile-picture"
+        />
       </div>
       <div className="p-6 text-center">
         <h4 className="mb-2 block  text-2xl font-semibold leading-snug tracking-normal text-sky-slate-900">
@@ -864,9 +1044,7 @@ export function Profile_Card() {
         </p>
       </div>
       <div className="flex gap-4 sm:justify-center">
-        <button
-          className="text-slate-500 hover:text-slate-900 "
-        >
+        <button className="text-slate-500 hover:text-slate-900 ">
           <svg
             className="w-5 h-5"
             fill="currentColor"
@@ -880,9 +1058,7 @@ export function Profile_Card() {
             ></path>
           </svg>
         </button>
-        <button
-          className="text-slate-500 hover:text-slate-900"
-        >
+        <button className="text-slate-500 hover:text-slate-900">
           <svg
             className="w-5 h-5"
             fill="currentColor"
@@ -896,9 +1072,7 @@ export function Profile_Card() {
             ></path>
           </svg>
         </button>
-        <button
-          className="text-slate-500 hover:text-slate-900"
-        >
+        <button className="text-slate-500 hover:text-slate-900">
           <svg
             className="w-5 h-5"
             fill="currentColor"
@@ -908,9 +1082,7 @@ export function Profile_Card() {
             <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"></path>
           </svg>
         </button>
-        <button
-          className="text-slate-500 hover:text-slate-900"
-        >
+        <button className="text-slate-500 hover:text-slate-900">
           <svg
             className="w-5 h-5"
             fill="currentColor"
@@ -932,14 +1104,19 @@ export function Profile_Card() {
 export function Progress_Bar() {
   return (
     <div>
-      <span id="ProgressLabel" className="sr-only">Loading</span>
+      <span id="ProgressLabel" className="sr-only">
+        Loading
+      </span>
       <span
         role="progressbar"
         aria-labelledby="ProgressLabel"
         aria-valuenow={80}
         className="block rounded-full bg-slate-200"
       >
-        <span className="block h-4 rounded-full bg-sky-600 text-center text-[10px]/4" style={{ width: "80%" }}>
+        <span
+          className="block h-4 rounded-full bg-sky-600 text-center text-[10px]/4"
+          style={{ width: "80%" }}
+        >
           <span className="font-bold text-white"> 80% </span>
         </span>
       </span>
@@ -1057,8 +1234,8 @@ export function Subscription_Section() {
         Stay Updated!
       </h1>
       <p className="text-base leading-normal text-center text-white mt-6">
-        Subscribe to your newsletter to get the latest update on your
-        favourite product
+        Subscribe to your newsletter to get the latest update on your favourite
+        product
       </p>
       <div className="border border-white flex flex-col sm:flex-row items-center w-full lg:w-5/12 mt-12 ">
         <input
@@ -1088,9 +1265,7 @@ export function Success() {
           clipRule="evenodd"
         />
       </svg>
-      <h1 className="mt-2 text-2xl font-bold text-slate-500">
-        Success
-      </h1>
+      <h1 className="mt-2 text-2xl font-bold text-slate-500">Success</h1>
       <p className="my-4 text-sm text-slate-500">
         Congratulations! Your request is successful
       </p>
@@ -1110,12 +1285,21 @@ export function Testimonial_Card() {
             <img src="https://i.pravatar.cc/100?img=5" alt="profile image" />
           </div>
           <div className="flex-grow pl-3">
-            <h6 className="font-bold text-sm uppercase text-slate-600">Elizabeth Holmes.</h6>
+            <h6 className="font-bold text-sm uppercase text-slate-600">
+              Elizabeth Holmes.
+            </h6>
             <p className="text-sm text-slate-600">Customer Representative.</p>
           </div>
         </div>
         <div className="w-full">
-          <p className="text-sm leading-tight"><span className="text-lg leading-none italic font-bold text-slate-400 mr-1"></span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sunt ratione dolor exercitationem minima quas itaque saepe quasi architecto vel! Accusantium, vero sint recusandae cum tempora nemo commodi soluta deleniti.<span className="text-lg leading-none italic font-bold text-slate-400 ml-1"></span></p>
+          <p className="text-sm leading-tight">
+            <span className="text-lg leading-none italic font-bold text-slate-400 mr-1"></span>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sunt
+            ratione dolor exercitationem minima quas itaque saepe quasi
+            architecto vel! Accusantium, vero sint recusandae cum tempora nemo
+            commodi soluta deleniti.
+            <span className="text-lg leading-none italic font-bold text-slate-400 ml-1"></span>
+          </p>
         </div>
       </div>
     </div>
@@ -1127,30 +1311,70 @@ export function Timeline() {
     <div className="bg-white p-6 w-full">
       <div className="space-y-6 border-l-2 border-dashed">
         <div className="relative w-full">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="absolute -top-0.5 z-10 -ml-3.5 h-7 w-7 rounded-full text-sky-600">
-            <path fillRule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clipRule="evenodd" />
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            className="absolute -top-0.5 z-10 -ml-3.5 h-7 w-7 rounded-full text-sky-600"
+          >
+            <path
+              fillRule="evenodd"
+              d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z"
+              clipRule="evenodd"
+            />
           </svg>
           <div className="ml-6">
             <h4 className="font-bold text-sky-600">Step 1</h4>
-            <p className="mt-2 max-w-screen-sm text-sm text-slate-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente amet accusantium cum et numquam expedita repellendus a, animi exercitationem totam nulla enim quia, molestias ab tenetur, temporibus doloremque praesentium hic.</p>
+            <p className="mt-2 max-w-screen-sm text-sm text-slate-500">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+              amet accusantium cum et numquam expedita repellendus a, animi
+              exercitationem totam nulla enim quia, molestias ab tenetur,
+              temporibus doloremque praesentium hic.
+            </p>
           </div>
         </div>
         <div className="relative w-full">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="absolute -top-0.5 z-10 -ml-3.5 h-7 w-7 rounded-full text-sky-600">
-            <path fillRule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clipRule="evenodd" />
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            className="absolute -top-0.5 z-10 -ml-3.5 h-7 w-7 rounded-full text-sky-600"
+          >
+            <path
+              fillRule="evenodd"
+              d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z"
+              clipRule="evenodd"
+            />
           </svg>
           <div className="ml-6">
             <h4 className="font-bold text-sky-600">Step 2</h4>
-            <p className="mt-2 max-w-screen-sm text-sm text-slate-500">Sapiente amet accusantium cum et numquam expedita repellendus a, animi exercitationem totam nulla enim quia, molestias ab tenetur, temporibus doloremque praesentium hic.</p>
+            <p className="mt-2 max-w-screen-sm text-sm text-slate-500">
+              Sapiente amet accusantium cum et numquam expedita repellendus a,
+              animi exercitationem totam nulla enim quia, molestias ab tenetur,
+              temporibus doloremque praesentium hic.
+            </p>
           </div>
         </div>
         <div className="relative w-full">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="grey" className="absolute -top-0.5 z-10 -ml-3.5 h-7 w-7 rounded-full text-sky-600">
-            <path fillRule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clipRule="evenodd" />
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="grey"
+            className="absolute -top-0.5 z-10 -ml-3.5 h-7 w-7 rounded-full text-sky-600"
+          >
+            <path
+              fillRule="evenodd"
+              d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z"
+              clipRule="evenodd"
+            />
           </svg>
           <div className="ml-6">
             <h4 className="font-bold text-slate-600">Step 3</h4>
-            <p className="mt-2 max-w-screen-sm text-sm text-slate-500">Sapiente amet accusantium cum et numquam expedita repellendus a, animi exercitationem totam nulla enim quia, molestias ab tenetur, temporibus doloremque praesentium hic.</p>
+            <p className="mt-2 max-w-screen-sm text-sm text-slate-500">
+              Sapiente amet accusantium cum et numquam expedita repellendus a,
+              animi exercitationem totam nulla enim quia, molestias ab tenetur,
+              temporibus doloremque praesentium hic.
+            </p>
           </div>
         </div>
       </div>
@@ -1163,7 +1387,9 @@ export function Toggle() {
     <label className="relative inline-flex items-center cursor-pointer">
       <input type="checkbox" value="" className="sr-only peer" />
       <div className="w-11 h-6 bg-slate-200 peer-focus:outline-none peer-focus:ring-4 rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-sky-600"></div>
-      <span className="ml-3 text-sm font-medium text-slate-900 ">Toggle me</span>
+      <span className="ml-3 text-sm font-medium text-slate-900 ">
+        Toggle me
+      </span>
     </label>
   );
 }
@@ -1171,9 +1397,25 @@ export function Toggle() {
 export function Upload_File() {
   return (
     <div className="flex items-center justify-center w-full">
-      <label htmlFor="upload-file" className="flex flex-col items-center justify-center w-full h-64 border-2 border-slate-300 border-dashed rounded-lg cursor-pointer bg-slate-50 hover:bg-slate-100">
+      <label
+        htmlFor="upload-file"
+        className="flex flex-col items-center justify-center w-full h-64 border-2 border-slate-300 border-dashed rounded-lg cursor-pointer bg-slate-50 hover:bg-slate-100"
+      >
         <div className="flex flex-col items-center justify-center pt-5 pb-6">
-          <svg className="w-10 h-10 mb-3 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"></path></svg>
+          <svg
+            className="w-10 h-10 mb-3 text-slate-400"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"
+            ></path>
+          </svg>
           <p className=" text-sm text-slate-500 ">Click to upload</p>
           <p className="text-sm text-slate-500 ">or drag and drop file here</p>
         </div>
